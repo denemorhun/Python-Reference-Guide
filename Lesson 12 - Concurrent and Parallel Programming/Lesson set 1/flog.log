@@ -1,0 +1,3 @@
+this will get logged
+this will not get logged
+this will get logged because the level is 20

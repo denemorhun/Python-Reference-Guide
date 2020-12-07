@@ -1,0 +1,23 @@
+/////////////////POSTMAN TUTORIAL //////////////////////////
+
+// GET request - worked
+GET https://postman-echo.com/get?foo1=bar1&foo2=bar2
+
+// POST request - worked 
+
+//POST https://postman-echo.com/post?foo1=bar1&foo2=bar2
+
+//PUT Request
+// https://postman-echo.com/put 
+
+// GET Headers
+// GET https://postman-echo.com/headers
+
+// GET headers with param
+// GET https://postman-echo.com/response-headers?foo1=bar1&foo2=bar2
+
+// GET with auth
+// GET https://postman-echo.com/basic-auth {Authorization: Basic cG9zdG1hbjpwYXNzd29yZA==}
+
+// GET RESPONSE
+//get https://postman-echo.com/status/200

@@ -1,0 +1,13 @@
+{
+    "firstName": "Mened",
+    "lastName": "nuhro",
+    "email": "mened@nuhrom.com",
+    "location": {
+        "city": "izmir, izmir",
+        "country": "TR"
+    },
+    "employer": {
+    	"jobTitle": "Software Tester",
+    	"company": "self"
+    }
+}

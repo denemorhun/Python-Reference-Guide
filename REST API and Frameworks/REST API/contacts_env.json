@@ -1,0 +1,49 @@
+{
+	"id": "e42fbd2a-4947-4516-b96e-350fde3dd8bf",
+	"name": "Contact List",
+	"values": [
+		{
+			"key": "firstName",
+			"value": "Diego",
+			"enabled": true
+		},
+		{
+			"key": "lastName",
+			"value": "Hargreeves",
+			"enabled": true
+		},
+		{
+			"key": "contactId",
+			"value": "jsonData._id",
+			"enabled": true
+		},
+		{
+			"key": "email",
+			"value": "diego@mail.com",
+			"enabled": true
+		},
+		{
+			"key": "city",
+			"value": "Izmir",
+			"enabled": true
+		},
+		{
+			"key": "country",
+			"value": "Turkey",
+			"enabled": true
+		},
+		{
+			"key": "jobTitle",
+			"value": "QA Eng",
+			"enabled": true
+		},
+		{
+			"key": "company",
+			"value": "Ronwell",
+			"enabled": true
+		}
+	],
+	"_postman_variable_scope": "environment",
+	"_postman_exported_at": "2020-08-24T11:21:59.291Z",
+	"_postman_exported_using": "Postman/7.30.1"
+}

@@ -1,0 +1,17 @@
+// curl --location --request GET 'http://3.13.86.142:3000/contacts'
+
+curl --location --request POST 'http://3.13.86.142:3000/contacts' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "firstName": "Men",
+    "lastName": "Nuh",
+    "email": "mamam@thinkingtester.com",
+    "location": {
+        "city": "izmir, TR",
+        "country": "Turkey"
+    },
+    "employer": {
+    	"jobTitle": "Software Tester",
+    	"company": "self"
+    }
+}'
