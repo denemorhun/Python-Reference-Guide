@@ -1,3 +1,5 @@
+''' Solution with helper functions'''
+
 from queue import Queue
 
 # Node Class
