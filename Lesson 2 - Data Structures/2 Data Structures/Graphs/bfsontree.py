@@ -1,4 +1,3 @@
-import math
 '''
 Level Order Binary Tree Traversal (BFS)
 # Check all connections from a node
@@ -19,8 +18,6 @@ implement two functions:
     - printGivenLevel: print given level
     - printLevelorder: nodes on a given level
 
-
-
 '''
 
 class TreeNode: 
@@ -29,8 +26,9 @@ class TreeNode:
         self.right = None
         self.val = key 
 
-# Add any helper functions you may need here
-
+    ###########################################
+    # BFS on a binary tree
+    ###########################################
     def bfs(self):
     # bfs to control children nodes
 
@@ -48,38 +46,14 @@ class TreeNode:
             if current_node.right:
                 q.append(current_node.right)
 
-            # if current_node.left:
-            #     q.append(current_node.left.val)
-            # elif current_node.right:
-            #     q.append(current_node.right.val)
-
-
-
-
-
-
-# def visible_nodes(self, root):
-#   # Write your code here
-#   level = 0
-#   return _visible_nodes(root, level)
-
-# def  _visible_nodes(self, root, level):
-#     q = []
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    ###########################################
+    # DFS on a binary tree
+    ###########################################
+    def dfs(self, node):
+        if node:
+            print(node.val)
+            self.dfs(node.left)
+            self.dfs(node.right)
 
 # These are the tests we use to determine if the solution is correct.
 # You can add your own at the bottom, but they are otherwise not editable!
@@ -116,7 +90,12 @@ if __name__ == "__main__":
     root_a.left.right = TreeNode('e')
     root_a.right.left = TreeNode('f')
 
-    root_a.bfs()
+    #root_a.bfs()
+
+    # root_a.dfs(root_a)
+
+    # need to start with level 1, lets see if we print anything
+    root_a.printGivenLevel(1, 5)
 
     
    
